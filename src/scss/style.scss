@@ -1,0 +1,38 @@
+$dark: #121212;
+$grey: rgba(255, 255, 255, 0.06);
+$blue: #0f6ebe;
+$darkgrey: #202020;
+* {
+  color: white;
+}
+
+html {
+  font-size: 0.5vw;
+  scrollbar-width: 0px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body,
+:root {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: $dark;
+}
+
+@import "./topbar.scss";
+@import "./card.scss";
+@import "./calender.scss";
+
+.cal2 {
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  padding-left: 5vw;
+}
+// .MuiGrid-container {
+//   width: 97% !important;
+//   margin-right: 0px !important;
+// }
+
+

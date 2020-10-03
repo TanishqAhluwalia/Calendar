@@ -1,0 +1,57 @@
+.card {
+  width: 25rem;
+  height: 14rem;
+  //   opacity: 0.4;
+  background-color: rgba(255, 255, 255, 0.06);
+  //   border: 3.0rem solid green;
+  border-radius: 0rem;
+  .date {
+    .txt {
+      display: inline-block;
+      width: 17.6rem;
+      height: 2.8rem;
+      font-size: 3rem;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      margin-left: 0rem;
+      padding-left: 0rem;
+    }
+    span {
+      padding-left: 0.4rem;
+      font-weight: 300;
+      font-size: 1.6rem;
+    }
+    .month {
+      font-size: 1rem;
+      padding-top: 1rem;
+      width: 10rem;
+      text-align: left;
+    }
+    margin: 1.5rem 12.4rem 5rem 2.5rem;
+    // opacity: 1;
+    margin-right: 0px;
+  }
+
+  .v1 {
+    background-color: $blue;
+    height: 10rem;
+    width: 0.3rem;
+    position: absolute;
+    top: -0.2rem;
+    border-radius: 2rem;
+    left: 2rem;
+  }
+}
+
+.card2 {
+  width: 25rem;
+  height: 3rem;
+  text-align: center;
+  // padding-left: 1.0rem;
+  text-transform: uppercase;
+  color: grey;
+  font-size: 1.7rem;
+}
